@@ -13,16 +13,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Install jq
         run: |
           sudo apt update
           sudo apt install jq -y
 
-      - name: Update version in depiction file
+      - name: Update depiction file
         run: |
-          VERSION=$(jq -r '.tabs[0].views[0].markdown | capture("更新:(?<version>\\d+\\.\\d+\\.\\d+)").version' ./com.nx.appcardlite/js.json)
-          NEW_VERSION="2.2.8"  # 更新为新的版本号，或者使用动态版本号
-          jq --arg version "$NEW_VERSION" '.tabs[1].views[0].title = $version' ./com.nx.appcardlite/js.json > ./com.nx.appcardlite/temp.json
+          # 获取当前版本
+          CURRENT_VERSION=$(jq -r '.tabs[0].views[0].markdown | capture("更新:(?<version>\\d+\\.\\d+\\.\\d+)").version' ./com.nx.appcardlite/js.json)
+          # 设置新的版本号
+          NEW_VERSION="2.2.8"  # 根据实际需要更新版本号
+
+          # 更新描述内容
+          jq --arg version "$NEW_VERSION" --arg markdown "更新:重写部分代码,建议更新新增:横屏小键盘上防长按1s后左右滑动拖拽.图示键盘上放黑色部分." \
+            '.tabs[1].views[0].markdown = $markdown | .tabs[1].views[0].title = $version' \
+            ./com.nx.appcardlite/js.json > ./com.nx.appcardlite/temp.json
+
+          # 替换原始文件
           mv ./com.nx.appcardlite/temp.json ./com.nx.appcardlite/js.json
 
       - name: Commit and push changes
