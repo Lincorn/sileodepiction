@@ -31,7 +31,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2.2.7",
+          "text": "2.2.7",  // 假设的最新版本号路径
           "title": "最新版本"
         },
         {
@@ -56,10 +56,9 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "2.2.7",
+          "title": "2.2.7",  // 假设的更新日志版本号路径
           "useBoldText": true,
-          "useBottomMargin": false,
-          "markdown": "更新:重写部分代码,建议更新新增:横屏小键盘上防长按1s后左右滑动拖拽.图示键盘上放黑色部分."
+          "useBottomMargin": false
         },
         {
           "class": "DepictionMarkdownView",
