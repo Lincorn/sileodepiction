@@ -23,7 +23,8 @@ jobs:
           VERSION_LIST=""
           for file in com.*/**/*.json; do
             if [ -f "$file" ]; then
-              VERSION=$(jq -r '.tabs[0].views[7].text' "$file")  # 假设版本号在此路径
+              # 假设版本号在此路径，您可以根据实际情况调整
+              VERSION=$(jq -r '.minVersion' "$file")  
               FILENAME=$(basename "$file" .json)
               VERSION_LIST="$VERSION_LIST$FILENAME: $VERSION\n"
             fi
@@ -32,16 +33,21 @@ jobs:
 
       - name: Update main.yaml with new versions
         run: |
-          while IFS= read -r line; do
-            FILENAME=$(echo "$line" | cut -d ':' -f 1)
-            VERSION=$(echo "$line" | cut -d ':' -f 2 | xargs)
-            sed -i "s/${FILENAME} version: .*/${FILENAME} version: ${VERSION}/" .github/workflows/main.yaml
-          done <<< "${{ env.VERSIONS }}"
+          # 确保路径正确，并且文件存在
+          if [ -f .github/workflows/main.yaml ]; then
+            while IFS= read -r line; do
+              FILENAME=$(echo "$line" | cut -d ':' -f 1)
+              VERSION=$(echo "$line" | cut -d ':' -f 2 | xargs)
+              sed -i "s/${FILENAME} version: .*/${FILENAME} version: ${VERSION}/" .github/workflows/main.yaml
+            done <<< "${{ env.VERSIONS }}"
+          else
+            echo "main.yaml file does not exist."
+          fi
 
       - name: Commit changes
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
           git add .github/workflows/main.yaml
-          git commit -m "Update versions based on JSON files"
+          git commit -m "Update versions based on JSON files" || echo "No changes to commit"
           git push
