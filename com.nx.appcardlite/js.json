@@ -13,21 +13,6 @@
                     "useRawFormat": true
                 },
                 {
-                    "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 6,
-                    "itemSize": "{160, 346.4533333333333}",
-                    "screenshots": [
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": ""
-                        },
-                        {
-                            "accessibilityText": "Screenshot",
-                            ""
-                        }
-                    ]
-                },
-                {
                     "class": "DepictionSpacerView",
                     "spacing": 16
                 },
@@ -55,7 +40,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.3.0",
+                    "text": "2.2.7",
                     "title": "最新版本"
                 },
                 {
@@ -113,5 +98,5 @@
                 }
             ]
         }
-    ],
+    ]
 }
