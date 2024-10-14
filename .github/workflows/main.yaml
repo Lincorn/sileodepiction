@@ -1,44 +1,47 @@
-name: Update Depiction
+name: Update Sileo Depictions
 
 on:
   push:
     branches:
       - main
+    paths:
+      - 'com.*/**/*.json'  # 监听所有 com.xxx.xx/ 下的 JSON 文件的变化
 
 jobs:
-  update_depiction:
+  update_version:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
       - name: Install jq
+        run: sudo apt-get install jq -y
+
+      - name: Get version from JSON files
+        id: get_versions
         run: |
-          sudo apt update
-          sudo apt install jq -y
+          VERSION_LIST=""
+          for file in com.*/**/*.json; do
+            if [ -f "$file" ]; then
+              VERSION=$(jq -r '.tabs[0].views[7].text' "$file")  # 假设版本号在此路径
+              FILENAME=$(basename "$file" .json)
+              VERSION_LIST="$VERSION_LIST$FILENAME: $VERSION\n"
+            fi
+          done
+          echo "VERSIONS=${VERSION_LIST}" >> $GITHUB_ENV
 
-      - name: Update depiction file
+      - name: Update main.yaml with new versions
         run: |
-          # 设置新的版本号
-          NEW_VERSION="2.2.8"  # 根据实际需要更新版本号
+          while IFS= read -r line; do
+            FILENAME=$(echo "$line" | cut -d ':' -f 1)
+            VERSION=$(echo "$line" | cut -d ':' -f 2 | xargs)
+            sed -i "s/${FILENAME} version: .*/${FILENAME} version: ${VERSION}/" .github/workflows/main.yaml
+          done <<< "${{ env.VERSIONS }}"
 
-          # 使用 jq 更新描述文件
-          jq --arg version "$NEW_VERSION" --arg markdown "更新:重写部分代码,建议更新新增:横屏小键盘上防长按1s后左右滑动拖拽.图示键盘上放黑色部分." \
-            '(.tabs[1].views[0].markdown) = $markdown | (.tabs[1].views[0].title) = $version' \
-            ./com.nx.appcardlite/js.json > ./com.nx.appcardlite/temp.json
-
-          # 替换原始文件
-          mv ./com.nx.appcardlite/temp.json ./com.nx.appcardlite/js.json
-
-          # 输出更新后的 JSON 内容以便调试
-          echo "Updated JSON:"  
-          cat ./com.nx.appcardlite/js.json
-
-      - name: Commit and push changes
+      - name: Commit changes
         run: |
-          git config --global user.email 'action@github.com'
-          git config --global user.name 'GitHub Action'
-          git add ./com.nx.appcardlite/js.json
-          git commit -m "Update depiction to version $NEW_VERSION" || echo "No changes to commit"
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add .github/workflows/main.yaml
+          git commit -m "Update versions based on JSON files"
           git push
