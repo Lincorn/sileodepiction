@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3  # 更新为最新版本
 
       - name: Install jq
         run: sudo apt-get install jq -y
@@ -23,7 +23,7 @@ jobs:
           VERSION_LIST=""
           for file in com.*/**/*.json; do
             if [ -f "$file" ]; then
-              # 假设版本号在此路径，您可以根据实际情况调整
+              # 获取版本号，这里假设为 minVersion
               VERSION=$(jq -r '.minVersion' "$file")  
               FILENAME=$(basename "$file" .json)
               VERSION_LIST="$VERSION_LIST$FILENAME: $VERSION\n"
@@ -33,7 +33,6 @@ jobs:
 
       - name: Update main.yaml with new versions
         run: |
-          # 确保路径正确，并且文件存在
           if [ -f .github/workflows/main.yaml ]; then
             while IFS= read -r line; do
               FILENAME=$(echo "$line" | cut -d ':' -f 1)
@@ -41,7 +40,8 @@ jobs:
               sed -i "s/${FILENAME} version: .*/${FILENAME} version: ${VERSION}/" .github/workflows/main.yaml
             done <<< "${{ env.VERSIONS }}"
           else
-            echo "main.yaml file does not exist."
+            echo "Error: main.yaml file does not exist."
+            exit 1
           fi
 
       - name: Commit changes
