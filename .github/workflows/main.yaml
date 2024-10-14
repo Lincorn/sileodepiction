@@ -1,0 +1,34 @@
+name: Update Depiction
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update_depiction:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install jq -y
+
+      - name: Update version in depiction file
+        run: |
+          VERSION=$(jq -r '.tabs[0].views[0].markdown | capture("更新:(?<version>\\d+\\.\\d+\\.\\d+)").version' ./com.nx.appcardlite/js.json)
+          NEW_VERSION="2.2.8"  # 更新为新的版本号，或者使用动态版本号
+          jq --arg version "$NEW_VERSION" '.tabs[1].views[0].title = $version' ./com.nx.appcardlite/js.json > ./com.nx.appcardlite/temp.json
+          mv ./com.nx.appcardlite/temp.json ./com.nx.appcardlite/js.json
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.email 'action@github.com'
+          git config --global user.name 'GitHub Action'
+          git add ./com.nx.appcardlite/js.json
+          git commit -m "Update depiction to version $NEW_VERSION"
+          git push
