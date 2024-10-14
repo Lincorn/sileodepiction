@@ -65,7 +65,7 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "2.2.8",
+          "title": "2.2.7",
           "useBoldText": true,
           "useBottomMargin": false,
           "markdown": "更新:重写部分代码,建议更新新增:横屏小键盘上防长按1s后左右滑动拖拽.图示键盘上放黑色部分."
