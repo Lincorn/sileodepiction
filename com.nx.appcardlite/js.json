@@ -74,7 +74,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "2.2.7更新: </br> </br> 重写部分代码,建议更新新增.横屏小键盘上防长按1s后左右滑动拖拽.图示键盘上放黑色部分.",
+          "markdown": "2.2.7更新: </br> </br> 重写部分代码,建议更新新增. </br> </br> 横屏小键盘上防长按1s后左右滑动拖拽.图示键盘上放黑色部分.",
           "useRawFormat": true
         },
         {
