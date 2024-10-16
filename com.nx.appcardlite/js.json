@@ -37,7 +37,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "14.x - 16.x",
+          "text": "12.x - 16.x",
           "title": "理论支持系统范围"
         },
         {
@@ -63,7 +63,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "更新：小Bug修复",
+          "markdown": "更新：小Bug修复.",
           "useRawFormat": true
         },
         {
@@ -74,7 +74,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "更新：与2.2.8的更新日志相同",
+          "markdown": "更新：与2.2.8的更新日志相同.",
           "useRawFormat": true
         },
         {
@@ -85,7 +85,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "更新：左侧边缘阀值降至10%. </br> </br>其它更新未知,键盘导致小窗口隐藏的问题,若未修复,搞不了了,没有新办法了.",
+          "markdown": "更新：左侧边缘阀值降至10%. </br> </br> 其它更新未知，键盘导致小窗口隐藏的问题，若未修复，搞不了了,没有新办法了.",
           "useRawFormat": true
         },
         {
@@ -96,7 +96,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "更新：重写部分代码,建议更新新增. </br> </br> 横屏小键盘上防长按1s后左右滑动拖拽.图示键盘上放黑色部分.",
+          "markdown": "更新：重写部分代码，建议更新新增. </br> </br> 横屏小键盘上防长按1s后左右滑动拖拽. </br> </br> 图示键盘上放黑色部分.",
           "useRawFormat": true
         },
         {
@@ -107,7 +107,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "更新：横屏键盘移到中间不喜欢的用版本：2.2.5-8. </br> </br> 注:由于未知Bug无法添加移动手势,不想进一步研究了",
+          "markdown": "更新：横屏键盘移到中间. </br> </br> 不喜欢的用版本：2.2.5-8. </br> </br> 注:由于未知Bug无法添加移动手势，不想进一步研究.",
           "useRawFormat": true
         },
         {
@@ -140,7 +140,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "更新：依赖:Orion 桌面禁用 视角左下1/5右下1/3侧边快拉呼出隐藏 </br> </br> 长按1s震动,上下滑动改变区域大小,手势识别区不大,换换手指多试几次,不准备改进了. </br> </br> 横屏游戏启动稳定后再用. ",
+          "markdown": "更新：依赖:Orion 桌面禁用. </br> </br> 视角左下1/5右下1/3侧边快拉呼出隐藏. </br> </br> 长按1s震动，上下滑动改变区域大小，手势识别区不大，换换手指多试几次，不准备改进了. </br> </br> 横屏游戏启动稳定后再用. ",
           "useRawFormat": true
         },
         {
@@ -151,7 +151,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "更新：依赖:Orion 视角左下1/4右下1/2侧边快拉呼出隐藏,横屏游戏home条稳定后再用，我这直接就拉回桌面了 </br> </br> 键盘推拽先不做了，准备用全局键盘，但容易把键盘搞坏，待定",
+          "markdown": "更新：依赖:Orion 视角左下1/4右下1/2侧边快拉呼出隐藏. </br> </br> 横屏游戏home条稳定后再用，我这直接就拉回桌面了. </br> </br> 待定：键盘推拽先不做了，准备用全局键盘，但容易把键盘搞坏.",
           "useRawFormat": true
         },
         {
@@ -162,7 +162,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "更新：依赖:Orion 键盘防遮挡,输入框就不处理了.还没完,想试就试吧 </br> </br> 问题已知：轻拉Home调打开关闭,临时用着.",
+          "markdown": "更新：依赖:Orion 键盘防遮挡，输入框就不处理了，还没完，想试就试吧. </br> </br> 问题已知：轻拉Home调打开关闭，临时用着.",
           "useRawFormat": true
         },
         {
@@ -173,7 +173,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "更新：接下来杀掉屏幕先转,一时不会有新版了,这是个砍掉很难多东西的,Bug应该少,只剩箭头了,会一直显示 喜欢尝试的可以试试.</br> </br> 注:暂时不想写代码.",
+          "markdown": "更新：接下来杀掉屏幕先转，一时不会有新版了，这是个砍掉很多东西的版本，Bug应该少，只剩箭头会一直显示，喜欢尝试的可以试试.</br> </br> 注：暂时不想写代码.",
           "useRawFormat": true
         },
         {
@@ -184,7 +184,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "更新：旧版Mark,依赖Orion </br> </br> 1.坐标已全部分离共4种组合,太多了还没优化好,会有窗口隐藏 打不开问题 </br> </br> 2.修复ios16,Bug待优化,都知道了. </br> </br> 3.缩放比例不要太大了,自己先控制好 </br> </br> 下一步:优化键盘",
+          "markdown": "更新：旧版Mark，依赖Orion </br> </br> 1.坐标已全部分离共4种组合，太多了还没优化好，会有窗口隐藏打不开的问题 </br> </br> 2.修复ios16,Bug待优化,都知道了. </br> </br> 3.缩放比例不要太大了,自己先控制好. </br> </br> 下一步：优化键盘.",
           "useRawFormat": true
         },
         {
@@ -195,7 +195,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "更新：1.解除移动区域限制,窗口移动坐标暂未修改,所以会乱飘或不跟手</br> </br> 2.修正了,ios15可以竖屏小窗口观看视频的问题</br> </br> 3.小改进待发现</br> </br> 下一步:需4套坐标系,保证各种情况窗口稳定,晕死",
+          "markdown": "更新：1.解除移动区域限制，窗口移动坐标暂未修改，所以会乱飘或不跟手</br> </br> 2.修正了ios15可以竖屏小窗口观看视频的问题</br> </br> 3.小改进待发现</br> </br> 下一步：需4套坐标系，保证各种情况窗口稳定，晕死.",
           "useRawFormat": true
         },
         {
@@ -206,7 +206,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "更新：小屏初始比例不做调节,自行缩放",
+          "markdown": "更新：小屏初始比例不做调节，自行缩放.",
           "useRawFormat": true
         },
         {
