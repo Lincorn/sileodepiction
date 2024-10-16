@@ -65,10 +65,10 @@
           "class": "DepictionMarkdownView",
           "markdown": "2.3FT 更新: </br> </br> 小Bug修复",
           "useRawFormat": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "2.2.9",
-          "useBoldText": true,
           "useBottomMargin": false
         },
         {
