@@ -37,7 +37,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "6.0 - 17.9",
+          "text": "14.x - 16.x",
           "title": "理论支持系统范围"
         },
         {
@@ -63,7 +63,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "2.3FT 更新: </br> </br> 小Bug修复",
+          "markdown": "更新：小Bug修复",
           "useRawFormat": true
         },
         {
@@ -74,7 +74,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "2.2.9更新: </br> </br> 与2.2.8的更新日志相同",
+          "markdown": "更新：与2.2.8的更新日志相同",
           "useRawFormat": true
         },
         {
@@ -85,7 +85,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "2.2.8更新: </br> </br> 左侧边缘阀值降至10%. </br> </br>其它更新未知,键盘导致小窗口隐藏的问题,若未修复,搞不了了,没有新办法了.",
+          "markdown": "更新：左侧边缘阀值降至10%. </br> </br>其它更新未知,键盘导致小窗口隐藏的问题,若未修复,搞不了了,没有新办法了.",
           "useRawFormat": true
         },
         {
@@ -96,7 +96,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "2.2.7更新: </br> </br> 重写部分代码,建议更新新增. </br> </br> 横屏小键盘上防长按1s后左右滑动拖拽.图示键盘上放黑色部分.",
+          "markdown": "更新：重写部分代码,建议更新新增. </br> </br> 横屏小键盘上防长按1s后左右滑动拖拽.图示键盘上放黑色部分.",
           "useRawFormat": true
         },
         {
@@ -107,7 +107,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "2.2.6更新:</br> </br>  横屏键盘移到中间不喜欢的用版本:2.2.5-8. </br> </br> 注:由于未知Bug无法添加移动手势,不想进一步研究了",
+          "markdown": "更新：横屏键盘移到中间不喜欢的用版本:2.2.5-8. </br> </br> 注:由于未知Bug无法添加移动手势,不想进一步研究了",
           "useRawFormat": true
         },
         {
