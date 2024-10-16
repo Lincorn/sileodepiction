@@ -6,6 +6,12 @@
       "tabname": "描述",
       "views": [
         {
+                    "title":"SingleVPN Github 开源地址",
+                    "action":"https://github.com/Lessica/SingleVPN",
+                    "openExternal": 1,
+                    "class":"DepictionTableButtonView"
+        },
+        {
           "class": "DepictionMarkdownView",
           "markdown": "将VPN状态和无线状态合并为一个图标,可在设置中自定义颜色 </br> </br> Combine VPN state and wireless state into one icon.",
           "useRawFormat": true
