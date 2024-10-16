@@ -69,6 +69,7 @@
         {
           "class": "DepictionSubheaderView",
           "title": "2.2.9",
+          "useBoldText": true,
           "useBottomMargin": false
         },
         {
