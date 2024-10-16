@@ -57,13 +57,24 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.2.9",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "2.2.9更新: </br> </br> 与2.2.8的更新日志相同",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.2.8",
           "useBoldText": true,
           "useBottomMargin": false
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "2.2.8更新: </br> </br> 更新:左侧边缘阀值降至10%. </br> </br>其它更新未知,键盘导致小窗口隐藏的问题,若未修复,搞不了了,没有新办法了.",
+          "markdown": "2.2.8更新: </br> </br> 左侧边缘阀值降至10%. </br> </br>其它更新未知,键盘导致小窗口隐藏的问题,若未修复,搞不了了,没有新办法了.",
           "useRawFormat": true
         },
         {
