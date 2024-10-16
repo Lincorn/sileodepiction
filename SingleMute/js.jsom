@@ -1,0 +1,88 @@
+{
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+                    "title":"SingleVPN Github 开源地址",
+                    "action":"https://github.com/Lessica/SingleMute",
+                    "openExternal": 1,
+                    "class":"DepictionTableButtonView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "让静音键在时间右侧显示,详细在设置界面查看 </br> </br> Just a single mute icon on the status bar of iOS.",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详情",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "82Flex",
+          "title": "作者"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "1.4",
+          "title": "最新版本"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "15.x - 16.x",
+          "title": "理论支持系统范围"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "2024 年 10 月 6 日",
+          "title": "最后更新日期"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "更新:添加设置功能，优先级可选.",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "初始版本",
+          "useRawFormat": true
+        }
+      ]
+    }
+  ]
+}
