@@ -1,0 +1,88 @@
+{
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+                    "title":"Github 开源地址",
+                    "action":"https://github.com/FouadRaheb/AppData",
+                    "openExternal": 1,
+                    "class":"DepictionTableButtonView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据的快捷工具。Netskao优化的版本,上架备份。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详情",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "Fouad Raheb",
+          "title": "作者"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "1.4.3",
+          "title": "最新版本"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "rootless",
+          "title": "理论支持系统范围"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "2024 年 10 月 21 日",
+          "title": "最后更新日期"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.4.3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "优化显示数据大小的加载速度，降低应用程序的显示ID",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.4.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "初始版本",
+          "useRawFormat": true
+        }
+      ]
+    }
+  ]
+}
