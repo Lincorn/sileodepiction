@@ -7,7 +7,7 @@
             "tabname": "描述",
             "views": [
                 {
-                    "title":"Kayoko Github 开源地址",
+                    "text":"Kayoko Github 开源地址",
                     "action":"https://github.com/Lessica/Kayoko",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
