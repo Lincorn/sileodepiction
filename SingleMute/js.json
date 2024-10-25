@@ -7,7 +7,7 @@
       "tabname": "描述",
       "views": [
         {
-          "title":"SingleVPN Github 开源地址",
+          "text":"SingleVPN Github 开源地址",
           "action":"https://github.com/Lessica/SingleMute",
           "openExternal": 1,
           "class": "DepictionButtonView"
