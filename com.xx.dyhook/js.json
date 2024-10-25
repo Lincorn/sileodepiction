@@ -1,15 +1,16 @@
 {
   "class": "DepictionTabView",
+  "tintColor": "#00FF00",
   "tabs": [
     {
       "class": "DepictionStackView",
       "tabname": "描述",
       "views": [
         {
-                    "title":"抖音图层 tg群",
-                    "action":"https://t.me/DouYinHook",
-                    "openExternal": 1,
-                    "class":"DepictionTableButtonView"
+          "title":"抖音图层 tg群",
+          "action":"https://t.me/DouYinHook",
+          "openExternal": 1,
+          "class": "DepictionButtonView"
         },
         {
           "class": "DepictionMarkdownView",
