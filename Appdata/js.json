@@ -1,15 +1,16 @@
 {
   "class": "DepictionTabView",
+  "tintColor": "#00FF00",
   "tabs": [
     {
       "class": "DepictionStackView",
       "tabname": "描述",
       "views": [
         {
-                    "title":"Github 开源地址",
-                    "action":"https://github.com/FouadRaheb/AppData",
-                    "openExternal": 1,
-                    "class":"DepictionTableButtonView"
+          "title":"Github 开源地址",
+          "action":"https://github.com/FouadRaheb/AppData",
+          "openExternal": 1,
+          "class": "DepictionButtonView"
         },
         {
           "class": "DepictionMarkdownView",
