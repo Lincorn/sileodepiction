@@ -7,7 +7,7 @@
       "tabname": "描述",
       "views": [
         {
-          "title":"Github 开源地址",
+          "text":"Github 开源地址",
           "action":"https://github.com/FouadRaheb/AppData",
           "openExternal": 1,
           "class": "DepictionButtonView"
