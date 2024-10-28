@@ -38,7 +38,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2.0.7+2",
+          "text": "2.0.7+3",
           "title": "最新版本"
         },
         {
@@ -48,7 +48,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2024 年 10 月 26 日",
+          "text": "2024 年 10 月 28 日",
           "title": "最后更新日期"
         },
         {
@@ -61,6 +61,17 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "2.0.7+3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复一些bug 移除全屏时打开评论区顶部黑块 尝试修复部分设备全屏无效 </br> </br> ✨新增首页自动连播2 </br> </br> ✨纯净播放按钮支持相册导入gif  </br> </br> ✨新增移除视频底部热点相关视频等视图",
+          "useRawFormat": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "2.0.7+2",
