@@ -44,12 +44,12 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "14.0 - 16.51",
+                    "text": "rootless",
                     "title": "支持系统范围"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 10 月 19 日",
+                    "text": "2024 年 10 月 29 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -62,6 +62,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.6",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "优化隐藏动画和时机",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "2.5",
