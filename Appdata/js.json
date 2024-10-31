@@ -13,8 +13,14 @@
           "class": "DepictionButtonView"
         },
         {
+          "text":"Netskao TG群",
+          "action":"https://t.me/IPAPatch",
+          "openExternal": 1,
+          "class": "DepictionButtonView"
+        },
+        {
           "class": "DepictionMarkdownView",
-          "markdown": "桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据的快捷工具。Netskao优化的版本,上架备份。",
+          "markdown": "桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据的快捷工具。\n- 此版本由 Netskao 完整汉化并修改优化。",
           "useRawFormat": true
         },
         {
@@ -38,7 +44,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "1.4.3",
+          "text": "1.4.4",
           "title": "最新版本"
         },
         {
@@ -48,7 +54,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2024 年 10 月 21 日",
+          "text": "2024 年 10 月 30 日",
           "title": "最后更新日期"
         },
         {
@@ -61,6 +67,17 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.4.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "允许 TrollStore 安装的应用程序重置数据和权限",
+          "useRawFormat": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.4.3",
