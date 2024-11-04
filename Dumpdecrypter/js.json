@@ -8,7 +8,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "砸壳 App Store 应用插件 </br> </br> - 支持砸壳小组件和分享组件 </br> </br> - 动态砸壳，支持全量包解密砸壳 </br> </br> - Decrypt iOS Apps and Plugins, Supports iOS15+, Only Tested iOS16.1",
+          "markdown": "砸壳 App Store 应用插件 </br> </br> - 支持砸壳小组件和分享组件 </br> </br> - 动态砸壳，支持全量包解密砸壳 </br> </br> - Decrypt iOS Apps and Plugins </br> </br> - Supports iOS15+, Only Tested iOS16.1",
           "useRawFormat": true
         },
         {
