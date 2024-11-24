@@ -1,0 +1,79 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "text":"TG 公测群",
+          "action":"https://t.me/lecardpublic",
+          "openExternal": 1,
+          "class": "DepictionButtonView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "新分屏公测版，上架备份。</br> </br> 功能介绍：屏幕左右侧靠底部一边滑倒另一边打开设置,不要停顿,轮盘中间显示⭐️可用，不行挂🪜</br> </br>没有任何教程,海外服务器会不定时掉,12月再见或永远不见。,
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详情",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "Crassna",
+          "title": "作者"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "1.1.7",
+          "title": "最新版本"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "rootless",
+          "title": "理论支持系统范围"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "2024 年 11 月 24 日",
+          "title": "最后更新日期"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.1.7",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "公测版，上架备份",
+          "useRawFormat": true
+        }
+      ]
+    }
+  ]
+}
