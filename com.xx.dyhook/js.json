@@ -38,7 +38,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2.0.7+8",
+          "text": "2.0.8-1",
           "title": "最新版本"
         },
         {
@@ -48,7 +48,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2024 年 11 月 24 日",
+          "text": "2024 年 12 月 1 日",
           "title": "最后更新日期"
         },
         {
@@ -61,6 +61,28 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "2.0.8-1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "新增移除消息界面顶部横向排列大头 </br> </br> 修复一些已知问题 </br> </br> 优化插件一些细节 </br> </br> 2024.12.1",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "2.0.8",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "新增一项花里胡哨的按钮(最近很火的那个) </br> </br> 新增一个小丑功能(修改自己作品的点赞/播放/浏览/收藏/评论)  </br> </br> 修复一些已知问题  </br> </br> 插件免费使用如你是买的，说明你被骗了，同时你也是小丑。 </br> </br> 包括不限于以下插件，如果你是购买使用，那么你就是小丑！(小红书/快手/今日头条/七猫/百度/高德/)",
+          "useRawFormat": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "2.0.7+8",
