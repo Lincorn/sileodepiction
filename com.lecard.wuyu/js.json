@@ -38,7 +38,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "1.1.8",
+          "text": "1.1.10",
           "title": "最新版本"
         },
         {
@@ -48,7 +48,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2024 年 11 月 26 日",
+          "text": "2024 年 12 月 3 日",
           "title": "最后更新日期"
         },
         {
@@ -61,6 +61,17 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.1.10",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "bug修复",
+          "useRawFormat": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.1.8",
