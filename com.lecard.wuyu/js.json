@@ -14,7 +14,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "新分屏公测版，上架备份。</br> </br> 功能介绍：屏幕左右侧靠底部一边滑倒另一边打开设置,不要停顿,轮盘中间显示⭐️可用，不行挂🪜 </br> </br> 功能在上边视屏，在非锁屏状态下不要在横屏小窗启动未曾打开过的app。建议锁屏使用，要不app识别方向自己转来转去。ios16启动横屏app有问题，没设备无法优化 。 </br> </br> 海外服务器会不定时掉,12月再见或永远不见。",
+          "markdown": "新分屏公测版，上架备份。</br> </br> 功能介绍：屏幕左右侧靠底部一边滑倒另一边打开设置,不要停顿,轮盘中间显示⭐️可用</br> </br> 功能在上边视屏，在非锁屏状态下不要在横屏小窗启动未曾打开过的app。建议锁屏使用，要不app识别方向自己转来转去。ios16启动横屏app有问题，没设备无法优化 。 </br> </br> 已经去除验证，有缘再见。",
           "useRawFormat": true
         },
         {
@@ -38,7 +38,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "1.2.2End",
+          "text": "1.3End",
           "title": "最新版本"
         },
         {
@@ -63,7 +63,7 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "1.2.2End",
+          "title": "1.3End",
           "useBoldText": true,
           "useBottomMargin": false
         },
