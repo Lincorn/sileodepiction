@@ -7,7 +7,7 @@
       "tabname": "描述",
       "views": [
         {
-          "text":"TG 公测群",
+          "text":"TG 公测群（已解散）",
           "action":"https://t.me/lecardpublic",
           "openExternal": 1,
           "class": "DepictionButtonView"
@@ -38,7 +38,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "1.2.1",
+          "text": "1.2.2End",
           "title": "最新版本"
         },
         {
@@ -48,7 +48,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2024 年 12 月 4 日",
+          "text": "2024 年 12 月 7 日",
           "title": "最后更新日期"
         },
         {
@@ -61,6 +61,17 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.2.2End",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "去除验证服务器，有缘再见",
+          "useRawFormat": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.2.1",
