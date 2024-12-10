@@ -38,7 +38,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2.0.8-1",
+          "text": "2.0.8-1plus",
           "title": "最新版本"
         },
         {
@@ -48,7 +48,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2024 年 12 月 1 日",
+          "text": "2024 年 12 月 9 日",
           "title": "最后更新日期"
         },
         {
@@ -61,6 +61,17 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "2.0.8-1plus",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "新增修改作品点赞等数量 </br> </br> 新增拍摄视屏时长限制移除 </br> </br> 新增点赞收藏等图标自定义 </br> </br> 新增评论区GIF保存 </br> </br> 新增相似表情包保存 </br> </br> 新增备份插件数据为文件恢复 </br> </br> 优化一些东西,修复一些东西 </br> </br> 2024.12.9",
+          "useRawFormat": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "2.0.8-1",
