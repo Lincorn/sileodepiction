@@ -7,7 +7,12 @@
             "tabname": "描述",
             "views": [
                 {
-                    "markdown": "## 分屏不必太复杂，一切从简即可\n- 所有版本均为付费版本，请联系开发者购买后使用",
+                    "markdown": "## 分屏不必太复杂，一切从简即可\n- 所有版本均为付费版本\n- 需要请联系开发者购买后使用",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "markdown": "## 购买Tips\n- 1.下载split-view-pro 1.1.6 版本\n- 2. 进入插件，点“请我喝咖啡”跳转支付宝\n- 3.支付100元，打开订单详细，联系商家\n- 4.准备udid登记后会添加好友发包",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
