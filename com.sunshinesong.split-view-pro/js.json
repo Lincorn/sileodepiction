@@ -54,6 +54,13 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4.0plus\n- 1.4.0防误触混搭138.5",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
                     "markdown": "### 1.4.0\n- arc背景色适配屏幕转向、左右手。\n- 移除摇一摇功能，避免造成不必要的耗电。\n- 修复arc工具栏排序功能异常问题。\n- 剥离左右手模式，先前的左右手模式开关现在只控三屏、非极简模式工具栏、浮窗位置。\n- 新增arc呼出方式，支持屏幕底部左侧、右侧、镜像（左右同时可以识别）。",
                 },
                 {
