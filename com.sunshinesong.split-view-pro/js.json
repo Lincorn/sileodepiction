@@ -1,1 +1,167 @@
-1
+{
+    "class": "DepictionTabView",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "markdown": "## 分屏不必太复杂，一切从简即可",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "1.4.0",
+                    "title": "插件版本"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "iOS 15 - iOS 17.0",
+                    "title": "支持系统"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2024 年 9 月 9 日",
+                    "title": "最后更新"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4.0\n- arc背景色适配屏幕转向、左右手。\n- 移除摇一摇功能，避免造成不必要的耗电。\n- 修复arc工具栏排序功能异常问题。\n- 剥离左右手模式，先前的左右手模式开关现在只控三屏、非极简模式工具栏、浮窗位置。\n- 新增arc呼出方式，支持屏幕底部左侧、右侧、镜像（左右同时可以识别）。",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.3.9\n- 移除部分方法声明，防止外部插件攻击调用，也为了避免只懂一点表面技术的人带节奏。\n- 修复横屏浮窗收起键盘同时关闭浮窗导致浮窗错位问题。\n- 修复浮窗未关闭时，通过arc切换应用导致上一个应用关闭异常问题。\n- 调整图钉位置，顶部调整为浮窗内部，底部图钉放置安全区域内。\n- 新增横屏图钉顶部位置设置。\n- 新增arc手势区域调节，30大小可完美避免键盘地球和听写无法触控问题，如果要使用其他手势，把区域拖到25以下大小即可。\n- 修复三屏应用退出时，未能及时关闭问题。\n- 修复全屏打开浮窗应用时短暂闪屏问题。\n- 优化arc手势逻辑，避免横屏播放视频时误触、避免非右手模式与系统返回手势冲突。\n- 修复少量应用依旧存在手势误触问题。\n- 修复三屏、浮窗打开主屏无法触控问题。\n- 调整arc全屏背景颜色显示范围。\n- 三屏打开浮窗、arc打开浮窗、非极简模式切换app、搜索应用浮窗打开不再提示“当前应用已在主屏打开，无法通过浮窗打开”提示，如果应用已经在主屏开，则会退出全屏状态，以浮窗方式打开。",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.3.8\n- 新增极简模式双指缩放浮窗功能，详细请看好设置描述。",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.3.7\n- 修复分屏闪屏问题。\n- 修复锁定应用面容识别问题。\n- 彻底移除arc手势开关。\n- 修复mediaserver进程启动崩溃触发看门狗问题。\n- 移除arc手势区域大小调节，固定50大小。",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.3.6\n- 修复悬浮图标透明度为0时显示问题。\n- 修改arc手势冲突逻辑（键盘弹起来未处理）。\n- 解决呼出arc导致误触键盘问题。\n- 判断是否关闭了手势功能。",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.3.5\n- 修复注销首次进入桌面arc动画显示异常问题。\n- 增加arc悬浮图标阴影、以及透明度调节。\n- 新增arc关闭按钮大小自定义功能。\n- 新增横屏浮窗键盘弹起时是否放大浮窗开关。\n- 移除浮窗热更新。\n- 修复横屏热更新调节导致arc呼出位置错乱问题。\n- 修复横屏图钉非自动钉住也显示问题。",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.3.4\n- 修复选择、删除app导致顺序错乱问题。\n- 调整图钉位置，不再在浮窗内部显示。\n- 配置改动调整为热更新。\n- 新增arc四层按钮大小自定义控制。",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.3.3\n- 降低了浮窗层级。\n- 修复设置切换开关无默认值问题。\n- 移除媒体服务部分逻辑，如果浮窗相机用不了，重启用户空间即可解决。",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.3.2\n- 移除极简模式双指单击手势。\n- 优化从极简模式全屏打开应用逻辑，之前设置过其他手势全屏打开可能需要重新调整。\n- 新加图钉位置开关。\n- 优化极简模式拖动逻辑，仅当拖动时显示全屏提示框。\n- 自适应图钉位置，避免底部横条或者刘海遮挡。\n- 新增隐藏拖拽浮窗全屏打开提示框开关。\n- 新增竖屏固定屏幕中心开关。\n- 移除左手非极简模式背景色。\n- 修复竖屏图钉顶部位置失效问题。\n- arc手势关闭逻辑调整，可支持横屏或者竖屏关闭。\n- 支持横屏固定图钉位置。",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.3.1\n- 修复浮窗错位问题。\n- 修复重置arc按钮半径功能失效问题。",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.3.0\n- 优化浮窗动画。\n- 图钉、音效目录调整，首次需要手动放置文件，后续更新都不会重置文件了。",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.2.9\n- 修复iOS16系统键盘无法弹出问题",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.2.8\n- 移除了浮窗缩放动画，替换为淡入淡出动画。\n- 新增默认钉住开关。调整限制最小可缩小浮窗大小。\n- 优化锁屏可能存在安全模式问题。",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.2.7\n- 支持电话助手灵动岛下拉",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.2.6\n- 优化了卡屏和卡网络",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.2.5\n- 当点击关闭三屏页面按钮时，支持自定义关闭侧边活动分屏小窗功能。\n- 优化后台相机占用问题。\n- 三屏UI优化。",
+                }
+            ]
+        }
+    ],
+}
