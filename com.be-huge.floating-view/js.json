@@ -12,7 +12,8 @@
                     "class": "DepictionMarkdownView"
                 },
                 {
-                    "class": "DepictionSeparatorView"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 所有版本均为付费版本，请联系开发者购买后使用",
                 },
                 {
                     "class": "DepictionSpacerView",
