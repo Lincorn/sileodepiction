@@ -7,13 +7,9 @@
             "tabname": "描述",
             "views": [
                 {
-                    "markdown": "## 分屏不必太复杂，一切从简即可",
+                    "markdown": "## 分屏不必太复杂，一切从简即可\n- 所有版本均为付费版本，请联系开发者购买后使用",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "### 所有版本均为付费版本，请联系开发者购买后使用",
                 },
                 {
                     "class": "DepictionSpacerView",
