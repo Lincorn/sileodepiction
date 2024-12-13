@@ -12,7 +12,12 @@
                     "class": "DepictionMarkdownView"
                 },
                 {
-                    "class": "DepictionSeparatorView"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 0.0.2-1.1.5为免费版本，没有验证",
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.2.3-1.4.0为付费版本，需要购买才可使用",
                 },
                 {
                     "class": "DepictionSpacerView",
