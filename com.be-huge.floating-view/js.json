@@ -93,7 +93,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 1.4.4\n- 修复了打开三屏按钮问题\n- 修复相机闪退的问题\n- 3、修复了快速点击角落的问题",
+                    "markdown": "### 1.4.4\n- 修复了打开三屏按钮问题\n- 修复相机闪退的问题\n- 修复了快速点击角落的问题",
                 },
                 {
                     "class": "DepictionSeparatorView"
