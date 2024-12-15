@@ -92,7 +92,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 1.0.1-1\n- 修复了主题DIY功能，修改了悬浮底栏调整方式\n- > 2024-12-15",
+                    "markdown": "### 1.0.1-1\n- 修复主题DIY功能，修改悬浮底栏调整方式\n- > 2024-12-15",
                 },
                 {
                     "class": "DepictionSeparatorView"
