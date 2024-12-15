@@ -8,12 +8,12 @@
             "views": [
               {
                     "text": "测试主题包下载",
-                    "action": "",
+                    "action": "https://github.com/Lincorn/sileodepiction/raw/refs/heads/main/com.tencent.themebox/%E6%B5%8B%E8%AF%95%E5%8E%9F%E7%94%9F%E4%B8%BB%E9%A2%98.zip",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
-                    "markdown": "## 微信主题插件\n- 点击上方测试主题包下载后导入可以使用功能\n- 目前测试和Themepro可以一起使用",
+                    "markdown": "## 微信主题插件\n- 点击上方测试主题包下载后导入可以使用功能\n- 目前测试和Themepro可以一起使用\n- 主题存放于微信数据目录/ Documents/Theme Box/Themes",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
