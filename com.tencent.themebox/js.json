@@ -78,7 +78,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 12 月 14 日",
+                    "text": "2024 年 12 月 15 日",
                     "title": "最后更新"
                 }
             ]
@@ -92,7 +92,14 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 1.0.1-1\n- 初始版本 ",
+                    "markdown": "### 1.0.1-1\n- 修复了主题DIY功能，修改了悬浮底栏调整方式\n- > 2024-12-15",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.0.1\n- 初始版本\n- > 2024-12-14",
                 }
             ]
         }
