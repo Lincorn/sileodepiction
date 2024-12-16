@@ -23,9 +23,6 @@
                     "class": "DepictionSpacerView",
                     "spacing": 8
                 },
-                {
-                    "class": "DepictionSeparatorView"
-                },
                  {
                     "class": "DepictionHeaderView",
                     "title": "预览",
@@ -35,6 +32,9 @@
                 {
                     "class": "DepictionSpacerView",
                     "spacing": 8
+                },
+                {
+                    "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionScreenshotsView",
