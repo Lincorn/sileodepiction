@@ -12,6 +12,9 @@
                     "class": "DepictionMarkdownView"
                 },
                 {
+                    "class": "DepictionSeparatorView"
+                },
+                {
                     "markdown": "## 购买Tips:\n- 1.下载split-view-pro 1.1.6 版本\n- 2.进入插件，点“请我喝咖啡”跳转支付宝\n- 3.支付100元，打开订单详细，联系商家\n- 4.准备udid登记后会添加好友发包",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
@@ -19,6 +22,9 @@
                 {
                     "class": "DepictionSpacerView",
                     "spacing": 8
+                },
+                {
+                    "class": "DepictionSeparatorView"
                 },
                  {
                     "class": "DepictionHeaderView",
@@ -46,6 +52,9 @@
                     "spacing": 8
                 },
                 {
+                    "class": "DepictionSeparatorView"
+                },
+                {
                     "class": "DepictionHeaderView",
                     "title": "详情",
                     "useBoldText": true,
@@ -54,9 +63,6 @@
                 {
                     "class": "DepictionSpacerView",
                     "spacing": 8
-                },
-                {
-                    "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionTableTextView",
