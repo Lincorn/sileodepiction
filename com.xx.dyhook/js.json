@@ -38,7 +38,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2.0.8-1plus",
+          "text": "2.0.8-3",
           "title": "最新版本"
         },
         {
@@ -48,7 +48,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2024 年 12 月 9 日",
+          "text": "2024 年 12 月 16 日",
           "title": "最后更新日期"
         },
         {
@@ -61,6 +61,17 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "2.0.8-3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "新增插件可选择视频背景 </br> </br> 修复一些人保存GIF的问题 </br> </br> 优化一些细节 </br> </br> 2024.12.16",
+          "useRawFormat": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "2.0.8-1plus",
