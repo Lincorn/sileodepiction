@@ -20,6 +20,31 @@
                     "class": "DepictionSpacerView",
                     "spacing": 8
                 },
+                 {
+                    "class": "DepictionHeaderView",
+                    "title": "预览",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 0,
+                    "itemSize": "{700, 700}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://lincorn.github.io/sileodepiction/com.sunshinesong.split-view-pro/pir1.PNG"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
                 {
                     "class": "DepictionHeaderView",
                     "title": "详情",
