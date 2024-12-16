@@ -38,7 +38,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2.0.8-3",
+          "text": "2.0.8-5",
           "title": "最新版本"
         },
         {
@@ -61,6 +61,17 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "2.0.8-5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复长按倍速显示问题 并新增1.25倍 </br> </br> 修复背景视频换图片时还是视频问题 </br> </br> > 2024.12.16",
+          "useRawFormat": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "2.0.8-3",
