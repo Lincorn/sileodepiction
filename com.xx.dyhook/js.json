@@ -69,7 +69,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "修复长按倍速显示问题 并新增1.25倍 </br> </br> 修复背景视频换图片时还是视频问题 </br> </br> > 2024.12.16",
+          "markdown": "修复长按倍速显示问题 并新增1.25倍 </br> </br> 修复背景视频换图片时还是视频问题 </br> </br> 2024.12.16",
           "useRawFormat": true
         },
         {
