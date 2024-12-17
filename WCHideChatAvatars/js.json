@@ -68,7 +68,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.1.5",
+                    "text": "1.1.6",
                     "title": "插件版本"
                 },
                 {
@@ -94,6 +94,10 @@
             "views": [
                 {
                     "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.1.6\n- 向下兼容更多版本\n- > 2024-12-17",
                 },
                 {
                     "class": "DepictionMarkdownView",
