@@ -68,7 +68,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.0.1-1",
+                    "text": "1.0.2-1",
                     "title": "插件版本"
                 },
                 {
@@ -78,7 +78,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 12 月 15 日",
+                    "text": "2024 年 12 月 17 日",
                     "title": "最后更新"
                 }
             ]
@@ -87,6 +87,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.0.2-1\n- 修复DIY功能素材加载不上的问题\n- 悬浮底栏新增描边和两个动画\n- 优化了一些细节\n- > 2024-12-17",
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
