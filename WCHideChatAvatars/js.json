@@ -68,7 +68,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.1.6",
+                    "text": "1.1.7",
                     "title": "插件版本"
                 },
                 {
@@ -94,6 +94,10 @@
             "views": [
                 {
                     "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.1.7\n- 调整控件间距, 更加优雅\n- > 2024-12-17",
                 },
                 {
                     "class": "DepictionMarkdownView",
