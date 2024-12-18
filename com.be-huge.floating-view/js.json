@@ -56,10 +56,6 @@
                     ]
                 },
                 {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
                     "class": "DepictionSeparatorView"
                 },
                 {
