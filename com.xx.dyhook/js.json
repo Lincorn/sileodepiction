@@ -22,6 +22,9 @@
           "spacing": 16
         },
         {
+           "class": "DepictionSeparatorView"
+        },
+        {
           "class": "DepictionHeaderView",
           "title": "详情",
           "useBoldText": true,
@@ -30,6 +33,9 @@
         {
           "class": "DepictionSpacerView",
           "spacing": 8
+        },
+        {
+           "class": "DepictionSeparatorView"
         },
         {
           "class": "DepictionTableTextView",
