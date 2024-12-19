@@ -7,7 +7,13 @@
             "tabname": "描述",
             "views": [
                 {
-                    "markdown": "## 微信主题插件\n- 主题存放于微信数据目录/ Documents/Theme Box/Themes",
+                    "text":"测试包原生主题",
+                    "action":"https://sileodepiction.8235467.xyz/com.tencent.themebox/测试原生主题.zip",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "markdown": "## 微信主题插件\n- 主题存放于微信数据目录/ Documents/Theme Box/Themes\n- 将上方测试包导入主题开启功能",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
