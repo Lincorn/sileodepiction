@@ -68,7 +68,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.1.7",
+                    "text": "1.1.8",
                     "title": "插件版本"
                 },
                 {
@@ -83,7 +83,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 12 月 17 日",
+                    "text": "2024 年 12 月 20 日",
                     "title": "最后更新"
                 }
             ]
@@ -92,6 +92,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.1.8\n- 支持文本换行，支持昵称文本修改\n- 下面两个是单独的聊天页面隐藏头像\n- > 2024-12-20",
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
