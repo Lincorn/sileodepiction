@@ -22,6 +22,40 @@
           "spacing": 8
         },
         {
+           "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "预览",
+          "useBoldText": true,
+          "useBottomMargin": false
+      },
+      {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+      },
+      {
+          "class": "DepictionSeparatorView"
+      },
+      {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 0,
+          "itemSize": "{700, 700}",
+          "screenshots": [
+              {
+                  "accessibilityText": "Screenshot",
+                  "url": "https://img.8235467.xyz/WeChatUISwitchLoader1.PNG"
+              },
+              {
+                  "accessibilityText": "Screenshot",
+                  "url": "https://img.8235467.xyz/WeChatUISwitchLoader2.PNG"
+              }
+          ]
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
           "class": "DepictionHeaderView",
           "title": "详情",
           "useBoldText": true,
