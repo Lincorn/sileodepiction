@@ -15,7 +15,10 @@
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "Kayoko 剪切板，现已由「乌龙工作室」继续维护，免费发布和使用！</br> </br> 添加 iOS16 支持！",
-                    "useRawFormat": true,
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionHeaderView",
