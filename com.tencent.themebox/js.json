@@ -13,7 +13,7 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "markdown": "## 微信主题插件\n- 主题存放于微信数据目录/ Documents/Theme Box/Themes\n- 将上方测试包导入主题开启功能",
+                    "markdown": "## 微信主题插件\n- 主题存放于微信数据目录/ Documents/Theme Box/Themes\n- 将上方测试包导入主题开启功能\n- 测试包只在最初版本可用，喜欢请购买",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -68,7 +68,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.0.3-2",
+                    "text": "1.0.5-1",
                     "title": "插件版本"
                 },
                 {
@@ -83,7 +83,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 12 月 19 日",
+                    "text": "2024 年 12 月 21 日",
                     "title": "最后更新"
                 }
             ]
@@ -92,7 +92,14 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
-                 {
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.0.5-1\n- 增加背景动画，主题必需添加背景图片才能生效\n- 优化悬浮底栏，允许自定义大小\n- 悬浮底栏图标新增长按动作\n- 还有一些猫也忘了。。。\n-   > 2024-12-21",
+                },
+                {
                     "class": "DepictionSeparatorView"
                 },
                 {
