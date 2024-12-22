@@ -7,7 +7,7 @@
             "tabname": "描述",
             "views": [
                 {
-                    "markdown": "## 为微信长按菜单和输入框添加边框\n- 支持自定义边框色值需要在weui_color_new.xml中按对应格式添加MenuBorderColor和InputBorderColor",
+                    "markdown": "## 为微信长按菜单和输入框添加边框\n- 支持自定义边框色值需要在weui_color_new.xml中按对应格式添加MenuBorderColor和InputBorderColor\n- 具体看预览内图片",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
