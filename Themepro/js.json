@@ -10,10 +10,10 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "title":"ThemePro 公众号",
+                    "text":"ThemePro 公众号",
                     "action":"https://mp.weixin.qq.com/s/-opHtUwVNONqu08pVZ22KA",
                     "openExternal": 1,
-                    "class":"DepictionTableButtonView"
+                    "class":"DepictionButtonView"
                 },
                 {
                     "class": "DepictionSeparatorView"
@@ -51,11 +51,11 @@
                         },
                                                 {
                             "accessibilityText": "Screenshot",
-                            "url": "https://imgs.8235467.xyz/file/1735231322679_Themepro2.jpg"
+                            "url": "https://imgs.8235467.xyz/file/1735231314952_Themepro2.jpg"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://imgs.8235467.xyz/file/1735231322679_Themepro3.jpg" 
+                            "url": "https://imgs.8235467.xyz/file/1735231322876_Themepro3.jpg" 
                         }
                     ]
                 },
