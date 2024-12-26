@@ -78,7 +78,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "3.4.4",
+                    "text": "3.5.7",
                     "title": "插件版本"
                 },
                 {
@@ -88,7 +88,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 12 月 14 日",
+                    "text": "2024 年 12 月 26 日",
                     "title": "最后更新"
                 }
             ]
@@ -97,6 +97,13 @@
             "class": "DepictionStackView",
             "tabname": "更新",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 3.5.7\n- 新增Gif动图支持切换暗黑，且做了性能优化\n- 新增全局心情动画\n- 新增全局圆头像\n- 新增资料页居中，水平，唱片/唱针，KTV歌词 等玩法\n- 修复聊天气泡防炸裂",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 3.4.4\n- 更新支持动态背景\n- 修复了服务页美团团购图标不显示\n- 解决用户切猪咪主题未关闭 TP 导致小底栏消失问题",
