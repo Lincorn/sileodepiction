@@ -74,7 +74,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.0.6-2",
+                    "text": "1.0.7-1",
                     "title": "插件版本"
                 },
                 {
@@ -89,7 +89,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 12 月 25 日",
+                    "text": "2024 年 12 月 29 日",
                     "title": "最后更新"
                 }
             ]
@@ -98,6 +98,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.0.7-1\n-  优化一些已知问题\n- 单独增加原头像居中功能的设置入口\n- 头像挂件支持调整大小和上下位置\n- 支持头像在左或在右显示增加了一些主题的配置项\n- > 2024-12-29",
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
