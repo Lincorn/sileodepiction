@@ -68,7 +68,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.1.8",
+                    "text": "1.1.9",
                     "title": "插件版本"
                 },
                 {
@@ -83,7 +83,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 12 月 20 日",
+                    "text": "2024 年 12 月 31 日",
                     "title": "最后更新"
                 }
             ]
@@ -92,6 +92,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.1.9\n- 修复8.0.55二维码按钮隐藏失效\n- > 2024-12-31",
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
