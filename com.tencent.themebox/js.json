@@ -74,7 +74,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.0.7-1",
+                    "text": "1.0.8-1",
                     "title": "插件版本"
                 },
                 {
@@ -89,7 +89,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 12 月 29 日",
+                    "text": "2024 年 12 月 31 日",
                     "title": "最后更新"
                 }
             ]
@@ -98,6 +98,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.0.8-1\n-  优化了一些代码提升流畅度\n- 修复107版本聊天背景图不能加载\n- 增加重置插件设置功能\n- > 2024-12-31",
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
