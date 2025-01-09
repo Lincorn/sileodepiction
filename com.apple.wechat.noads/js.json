@@ -27,10 +27,6 @@
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
-                                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
                 {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 0,
@@ -41,10 +37,6 @@
                             "url": "https://imgs.8235467.xyz/file/1736398281095_WeChatfuck.JPG" 
                         }
                     ]
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
                 },
                 {
                     "class": "DepictionSeparatorView"
