@@ -74,7 +74,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.1.0-1",
+                    "text": "1.1.1-1",
                     "title": "插件版本"
                 },
                 {
@@ -89,7 +89,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 1 月 8 日",
+                    "text": "2025 年 1 月 11 日",
                     "title": "最后更新"
                 }
             ]
@@ -98,6 +98,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.1.1-1\n- 修复一段错误代码导致微信闪退问题\n- > 2025-1-11",
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
