@@ -74,7 +74,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.1.1-1",
+                    "text": "1.1.2-1",
                     "title": "插件版本"
                 },
                 {
@@ -89,7 +89,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 1 月 11 日",
+                    "text": "2025 年 1 月 14 日",
                     "title": "最后更新"
                 }
             ]
@@ -98,6 +98,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.1.2-1\n- 优化代码修复一些已知问题\n- 增加服务页面图标映射\n- 配色管理增加红包/转账文字颜色修改 > 2025-1-14",
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
