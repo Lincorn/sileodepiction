@@ -37,16 +37,16 @@
                     "useBottomMargin": false
                 },
                 {
-                    "class": "DepictionSeparatorView"
-                },
-                {
                     "class": "DepictionSpacerView",
                     "spacing": 8
                 },
                 {
+                    "class": "DepictionSeparatorView"
+                },
+                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 0,
-                    "itemSize": "{700, 700}",
+                    "itemSize": "{700, 350}",
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
