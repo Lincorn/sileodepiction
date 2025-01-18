@@ -23,10 +23,10 @@
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
-                                                {
+                {
                     "class": "DepictionSeparatorView"
                 },
-                                                {
+                {
                     "class": "DepictionSpacerView",
                     "spacing": 8
                 },
@@ -38,6 +38,10 @@
                 },
                 {
                     "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
                 },
                 {
                     "class": "DepictionScreenshotsView",
