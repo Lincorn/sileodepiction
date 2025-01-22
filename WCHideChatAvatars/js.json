@@ -68,7 +68,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.1.9",
+                    "text": "1.2.1",
                     "title": "插件版本"
                 },
                 {
@@ -83,7 +83,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 12 月 31 日",
+                    "text": "2025 年 1 月 22 日",
                     "title": "最后更新"
                 }
             ]
@@ -92,6 +92,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.2.1\n- 修复热更新导致的设置页面不显示插件开关问题\n- > 2025-1-22",
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
