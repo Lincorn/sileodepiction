@@ -78,7 +78,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "3.8.1",
+                    "text": "3.7.2",
                     "title": "插件版本"
                 },
                 {
@@ -99,7 +99,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 3.8.1\n- 修复点击首页+号菜单添加好友闪退",
+                    "markdown": "### 3.7.2\n- 修复点击首页+号菜单添加好友闪退",
                 },
                 {
                     "class": "DepictionSeparatorView"
