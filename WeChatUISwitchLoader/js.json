@@ -72,7 +72,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "1.1-4",
+          "text": "1.1-5",
           "title": "最新版本"
         },
         {
@@ -82,7 +82,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2024 年 12 月 21 日",
+          "text": "2025 年 1 月 22 日",
           "title": "最后更新日期"
         },
         {
@@ -95,6 +95,17 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.1-5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复热更新导致的设置页面不显示插件问题",
+          "useRawFormat": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.1-4",
