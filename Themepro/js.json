@@ -78,7 +78,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "3.7.2",
+                    "text": "3.7.3",
                     "title": "插件版本"
                 },
                 {
@@ -88,7 +88,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 1 月 22 日",
+                    "text": "2025 年 1 月 25 日",
                     "title": "最后更新"
                 }
             ]
@@ -97,6 +97,13 @@
             "class": "DepictionStackView",
             "tabname": "更新",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 3.7.3\n- 适配8056微信",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 3.7.2\n- 修复点击首页+号菜单添加好友闪退",
