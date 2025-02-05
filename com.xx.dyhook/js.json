@@ -80,7 +80,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2.0.8-8",
+          "text": "2.1.0",
           "title": "最新版本"
         },
         {
@@ -90,7 +90,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2025 年 1 月 4 日",
+          "text": "2025 年 2 月 5 日",
           "title": "最后更新日期"
         },
         {
@@ -103,6 +103,17 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "2.1.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复闪退 </br> </br> 具体自测 </br> </br> 2025.2.5",
+          "useRawFormat": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "2.0.8-8",
