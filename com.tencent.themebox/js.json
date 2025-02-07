@@ -74,7 +74,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.1.5-1",
+                    "text": "1.1.6-1",
                     "title": "插件版本"
                 },
                 {
@@ -89,7 +89,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 2 月 5 日",
+                    "text": "2025 年 2 月 6 日",
                     "title": "最后更新"
                 }
             ]
@@ -98,6 +98,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.1.6-1\n- 修复114/115版本无法更新主题问题\n- 修复部分用户闪退问题\n- 优化背景加载的代码\n- > 2025-2-6",
+                
                 {
                     "class": "DepictionSeparatorView"
                 },
