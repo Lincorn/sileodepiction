@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.4.8-2",
+                    "text": "1.4.8-3",
                     "title": "插件版本"
                 },
                 {
@@ -89,6 +89,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4.8-3\n- 修复了浮窗应用没通知的问题\n- > 2025-2-10",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.4.8-2\n- 修复了图钉模式下当前应用再打开当前应用就会直接卡住的问题\n- > 2025-2-10",
