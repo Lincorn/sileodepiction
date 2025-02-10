@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.4.8-1",
+                    "text": "1.4.8-2",
                     "title": "插件版本"
                 },
                 {
@@ -89,6 +89,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4.8-2\n- 修复了图钉模式下当前应用再打开当前应用就会直接卡住的问题\n- > 2025-2-10",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.4.8-1\n- 新增浮窗阴影自定义调节\n- 修复浮窗固定屏幕中心打开，仅竖屏生效\n- 修复总开关关闭时，悬浮图标依旧显示问题\n- > 2025-2-10",
