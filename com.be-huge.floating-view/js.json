@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.4.8",
+                    "text": "1.4.8-1",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 2 月 9 日",
+                    "text": "2025 年 2 月 10 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4.8-1\n- 新增浮窗阴影自定义调节\n- 修复浮窗固定屏幕中心打开，仅竖屏生效\n- 修复总开关关闭时，悬浮图标依旧显示问题\n- > 2025-2-10",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.4.8\n- 修复微信来通知外置键盘收回问题，修复长按微信消息、qq消息外置键盘收回问题\n- 优化部分逻辑，防止部分机型锁屏闹钟安全模式\n- > 2025-2-9",
