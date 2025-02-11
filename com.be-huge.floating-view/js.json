@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.4.8-4",
+                    "text": "1.4.8-5",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 2 月 10 日",
+                    "text": "2025 年 2 月 11 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4.8-5\n- 新增横竖屏键盘内外弹出控制\n- 修复横屏浮窗，浮窗内弹出键盘拖动浮窗时，造成错位问题\n- > 2025-2-10",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.4.8-4\n- 修复了arc打开浮窗应用会闪一下的问题\n- > 2025-2-10",
