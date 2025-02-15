@@ -7,18 +7,6 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text":"测试包原生主题",
-                    "action":"https://sileodepiction.8235467.xyz/com.tencent.themebox/测试原生主题.zip",
-                    "openExternal": 1,
-                    "class": "DepictionButtonView"
-                },
-                {
-                    "text":"盒子头像挂件",
-                    "action":"https://sileodepiction.8235467.xyz/com.tencent.themebox/Avatar.zip",
-                    "openExternal": 1,
-                    "class": "DepictionButtonView"
-                },
-                {
                     "markdown": "## 微信主题插件\n- 主题存放于微信数据目录/ Documents/Theme Box/Themes\n- 将上方测试包导入主题开启功能\n- 测试包只在最初版本可用，喜欢请购买",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
@@ -103,7 +91,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 1.1.8-1\n- 修复117版本加载svg图标时的小问题\n- > 2025-2-15",
+                    "markdown": "### 1.1.8-1\n- 修复微信热更新带来的影响\n- 增加消息时间及置顶消息素材加载\n- 优化一些图标加载尺寸\n- > 2025-2-15",
                 },
                 {
                     "class": "DepictionSeparatorView"
