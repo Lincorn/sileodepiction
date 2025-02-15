@@ -74,7 +74,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.1.7-1",
+                    "text": "1.1.8-1",
                     "title": "插件版本"
                 },
                 {
@@ -98,6 +98,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.1.8-1\n- 修复117版本加载svg图标时的小问题\n- > 2025-2-15",
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
