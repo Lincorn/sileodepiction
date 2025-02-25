@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.4.8-8",
+                    "text": "1.4.8-9",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 2 月 23 日",
+                    "text": "2025 年 2 月 25 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,14 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4.8-9\n- 修复浮窗应用为相机时，且全屏打开相机造成误杀问题  暂未修复\n- 修复iOS15配置页面加载异常问题  已修复\n- 其他说的新东西等149\n- > 2025-2-25",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.4.8-8\n- 修复横屏浮窗最大化内置键盘放大不生效问题\n- > 2025-2-23",
