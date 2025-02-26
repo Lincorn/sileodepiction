@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.4.9",
+                    "text": "1.4.9-1",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 2 月 25 日",
+                    "text": "2025 年 2 月 26 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,14 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4.9-1\n- 修复横屏内置键盘放大中，下拉消息导致小窗缩小的问题\n- > 2025-2-26",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.4.9\n- 修复浮窗应用为相机时，且全屏打开相机造成误杀问题\n- 新增外置键盘收起时, 同时关闭浮窗功能\n- > 2025-2-25",
