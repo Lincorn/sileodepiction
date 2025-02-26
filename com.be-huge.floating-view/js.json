@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.4.9-1",
+                    "text": "1.4.9-2",
                     "title": "插件版本"
                 },
                 {
@@ -89,6 +89,14 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4.9-2\n- 修复从配置界面返回桌面，再次打开设置闪退问题\n- > 2025-2-26",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.4.9-1\n- 修复横屏内置键盘放大中，下拉消息导致小窗缩小的问题\n- > 2025-2-26",
