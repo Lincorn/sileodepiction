@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.4.9-4",
+                    "text": "1.4.9-5",
                     "title": "插件版本"
                 },
                 {
@@ -91,6 +91,14 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4.9-5\n- 修复切换键盘时，搜索界面持续上升问题\n- > 2025-2-27",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
+                {
+                    "class": "DepictionMarkdownView",
                     "markdown": "### 1.4.9-4\n- 新增竖屏键盘弹起时，是否避免搜索app视图被键盘遮挡功能（需要自行开启开关）\n- > 2025-2-27",
                 },
                 {
@@ -99,7 +107,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 1.4.9-3\n- 新增拖动外置键盘功能（仅横屏\n- > 2025-2-26",
+                    "markdown": "### 1.4.9-3\n- 新增拖动外置键盘功能（仅横屏）\n- > 2025-2-26",
                 },
                 {
                     "class": "DepictionSeparatorView"
