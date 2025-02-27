@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.4.9-3",
+                    "text": "1.4.9-4",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 2 月 26 日",
+                    "text": "2025 年 2 月 27 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,14 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4.9-4\n- 新增竖屏键盘弹起时，是否避免搜索app视图被键盘遮挡功能（需要自行开启开关）\n- > 2025-2-27",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.4.9-3\n- 新增拖动外置键盘功能（仅横屏\n- > 2025-2-26",
