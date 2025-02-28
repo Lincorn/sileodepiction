@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.4.9-5",
+                    "text": "1.4.9-7",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 2 月 27 日",
+                    "text": "2025 年 2 月 28 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,22 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4.9-7\n- 修复开关arc隐藏安全模式问题\n- 修复arc图标不居中问题\n- > 2025-2-28",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4.9-6\n- 优化截图隐藏arc、悬浮图标逻辑，避免与其它应用冲突。 调整为截图、录屏时隐藏，但不影响正常操作\n- 优化外部插件唤浮窗、arc逻辑，避免功能关闭时依旧能唤起\n- > 2025-2-28",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.4.9-5\n- 修复切换键盘时，搜索界面持续上升问题\n- > 2025-2-27",
