@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.4.9-7",
+                    "text": "1.5.0",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 2 月 28 日",
+                    "text": "2025 年 3 月 9 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,14 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.0\n- 新增横屏平铺键盘功能（目前不稳定，后续可能优化，或者割舍）\n- 修复总开关关闭时，相机权限依旧生效问题。\n- > 2025-3-9",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.4.9-7\n- 修复开关arc隐藏安全模式问题\n- 修复arc图标不居中问题\n- > 2025-2-28",
