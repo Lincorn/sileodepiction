@@ -7,8 +7,8 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "作者源",
-                    "action": "sileo://source/https://poomsmart.github.io/repo/",
+                    "text": "开源地址",
+                    "action": "https://github.com/PoomSmart/RecordPause",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
