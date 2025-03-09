@@ -13,8 +13,8 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "text": "Github 开源地址",
-                    "action": "作者tg群",
+                    "text": "作者tg群",
+                    "action": "https://t.me/huamidev",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
