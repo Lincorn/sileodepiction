@@ -8,12 +8,12 @@
             "views": [
                 {
                     "text": "作者源",
-                    "action": "https://poomsmart.github.io/repo/",
+                    "action": "sileo://source/https://poomsmart.github.io/repo/",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
-                    "markdown": "## 在iOS相机应用中暂停和恢复视频录制\n- 兼容iOS 9.0+\n- 版本2.0.6+支持iOS 11+ 版本1.x支持iOS 9+",
+                    "markdown": "## 在iOS相机应用中暂停和恢复视频录制\n- 兼容iOS 9.0+\n- 版本2.0.6+支持iOS 11+\n- 版本1.x支持iOS 9+",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
