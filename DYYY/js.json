@@ -39,28 +39,23 @@
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
-                                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
+                {
+                    "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 0,
-                    "itemSize": "{700, 700}",
+                    "itemSize": "{550, 550}",
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://imgs.8235467.xyz/file/DYYY-02.JPG"
+                            "url": "https://imgs.8235467.xyz/file/DYYY-01.JPG"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://imgs.8235467.xyz/file/DYYY-01.JPG"
-                        }
+                            "url": "https://imgs.8235467.xyz/file/DYYY-02.JPG"
+                        } 
                     ]
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
                 },
                 {
                     "class": "DepictionSeparatorView"
