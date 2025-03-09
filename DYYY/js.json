@@ -19,6 +19,9 @@
                     "class": "DepictionButtonView"
                 },
                 {
+                    "class": "DepictionSeparatorView"
+                },
+                {
                     "markdown": "## DYYY\n- 用于调整抖音的UI的Tweak\n- 仅供学习交流\n- 设置开启方法：双指长按 功能自测",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
@@ -43,7 +46,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "all",
+                    "text": "All",
                     "title": "支持系统"
                 },
                 {
