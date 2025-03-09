@@ -93,6 +93,13 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
+                    "markdown": "### 2.0-9\n- 重新上传了个包\n- 重写了一下cityManager以及属地显示逻辑\n- > 2025-3-9"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
                     "markdown": "### 2.0-9\n- 合并 #17 的PR (优化属地的判断逻辑)\n- 修复图文的文案错误的显示(直播我未能复现)\n- 评论区毛玻璃根据亮/暗背景处理显示效果\n- 开启全屏后默认隐藏评论区输入框\n- 移除不必要的冗余代码\n- 最终版本为v2.0-9\n- 功能均已满足我个人需求\n- 请停止任何有关的功能建议/反馈\n- > 2025-3-9"
                 },
                 {
