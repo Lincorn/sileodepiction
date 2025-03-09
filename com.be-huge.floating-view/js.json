@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.0-2",
+                    "text": "1.5.0-3",
                     "title": "插件版本"
                 },
                 {
@@ -89,6 +89,14 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.0-3\n- 修复三屏位置不能实时更新问题\n- 当外置键盘显示时，屏幕旋转时、外部插件唤起浮窗时隐藏键盘\n- > 2025-3-9",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.0-2\n- 修复拖拽全屏打开浮窗应用恢复未拖拽时位置\n- > 2025-3-9",
