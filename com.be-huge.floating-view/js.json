@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.0-5",
+                    "text": "1.5.0-6",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 3 月 9 日",
+                    "text": "2025 年 3 月 11 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,14 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.0-6\n- 修复偶发性记录浮窗位置失效问题（换了记录方式，先前存储的位置信息不再读取，首次打开是默认位置，是正常现象。）\n- > 2025-3-11",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.0-5\n- 修改了一些逻辑，为了解决勿扰模式和闹钟安全的问题（效果待定）\n- > 2025-3-9",
