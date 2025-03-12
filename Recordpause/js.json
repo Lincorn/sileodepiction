@@ -13,7 +13,7 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "markdown": "## 在iOS相机应用中暂停和恢复视频录制\n- 兼容iOS 9.0+\n- 版本2.0.6+支持iOS 11+\n- 版本1.x支持iOS 9+",
+                    "markdown": "## 在iOS相机应用中暂停和恢复视频录制\n- 兼容iOS 9.0+",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -32,7 +32,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.0.6",
+                    "text": "2.0.7",
                     "title": "插件版本"
                 },
                 {
@@ -46,6 +46,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 2.0.7\n- 新增对 iOS 9 - 10 的支持"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 2.0.6\n- 新增对iOS 11-12 的支持"
