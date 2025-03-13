@@ -93,7 +93,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 2.0-9\n- 重新上传了个包\n- 重写了一下cityManager以及属地显示逻辑\n- > 2025-3-9"
+                    "markdown": "### 2.0-9_End\n- 修复评论区毛玻璃 bug\n- > 2025-3-9"
                 },
                 {
                     "class": "DepictionSeparatorView"
