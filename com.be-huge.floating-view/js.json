@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.0-7",
+                    "text": "1.5.0-8",
                     "title": "插件版本"
                 },
                 {
@@ -89,6 +89,14 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.0-8\n- 修复iOS15设备呼不了arc问题还有乌贼手势联动\n- > 2025-3-14",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.0-7\n- 浮窗、小窗启动时，添加快照至后台任务栏\n- > 2025-3-14",
