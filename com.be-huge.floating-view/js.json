@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.0-10",
+                    "text": "1.5.0-11",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 3 月 14 日",
+                    "text": "2025 年 3 月 15 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,14 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.0-11\n- 浮窗打开时，同步暗黑、高亮模式\n- 新增自定义快捷按钮启动浮窗开关\n- 修复arc已选择工具栏按钮排序显示异常问题\n- > 2025-3-15",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.0-10\n- 修复下拉结束录屏通知打开应用失败问题\n- 修复前台打开系统相机应用时，通过arc打开浮窗造成相机闪退问题\n- > 2025-3-14",
