@@ -72,7 +72,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.1-3",
+                    "text": "2.1-5",
                     "title": "插件版本"
                 },
                 {
@@ -82,7 +82,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 3 月 16 日",
+                    "text": "2025 年 3 月 17 日",
                     "title": "最后更新"
                 }
             ]
@@ -91,6 +91,13 @@
             "class": "DepictionStackView",
             "tabname": "更新",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 2.1-5\n- 新增评论区表情包下载\n- 新增评论区图片无水印下载\n- 新增双击打开评论区\n- 新增视频进度时间显示\n- > 2025-3-17"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 2.1-3\n- 新增评论区实况图片无水印下载by 2023 girl\n- 使用官方下载按钮\n- 优化文案大小处理算法 by Wuang\n- 修复全屏模式下打开评论区后底部变黑\n- 修复全屏模式下部分用户直播错位问题\n- 修复未在首页情况下打开评论顶部变黑\n- > 2025-3-16"
