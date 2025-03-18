@@ -72,7 +72,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.1-5",
+                    "text": "2.1-6",
                     "title": "插件版本"
                 },
                 {
@@ -82,7 +82,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 3 月 17 日",
+                    "text": "2025 年 3 月 19 日",
                     "title": "最后更新"
                 }
             ]
@@ -91,6 +91,13 @@
             "class": "DepictionStackView",
             "tabname": "更新",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 2.1-6\n- 新增评论区文案复制,可直接复制内容\n- 新增移除顶栏朋友\n- 新增移除消息页顶部联系人列表\n- 修复顶栏仅为一个的情况下透明无效\n- 优化GIF动图支持,直接为GIF\n- 优化视频进度条时间显示,PR:#32感谢iOSMie\n- 优化屏蔽广告逻辑，#31感谢贡献\n- 修复隐藏左侧栏影响到其他按钮\n- 修复部分设备替换图标显示异常\n- 重新加入自动播放逻辑\n- 优化媒体处理等若干逻辑\n- > 2025-3-19"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 2.1-5\n- 新增评论区表情包下载\n- 新增评论区图片无水印下载\n- 新增双击打开评论区\n- 新增视频进度时间显示\n- > 2025-3-17"
