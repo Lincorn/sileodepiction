@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.2-1",
+                    "text": "1.5.2-2",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 3 月 18 日",
+                    "text": "2025 年 3 月 19 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,14 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.2-2\n- 支持点击通知横幅打开浮窗（横幅功能入口已挪至浮窗设置之中，不在原来其它杂项位置处）\n- > 2025-3-19",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.2-1\n- 优化下拉横幅通知逻辑（已完善）\n- 修复悬浮图标在总开关关闭情况下依旧显示问题\n- > 2025-3-18",
