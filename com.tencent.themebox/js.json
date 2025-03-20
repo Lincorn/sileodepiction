@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.1.8-1",
+                    "text": "2.0.0",
                     "title": "插件版本"
                 },
                 {
@@ -77,7 +77,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 2 月 15 日",
+                    "text": "2025 年 3 月 19 日",
                     "title": "最后更新"
                 }
             ]
@@ -86,6 +86,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 2.0.0\n- 修复一些已知问题，同时优化大量代码\n- 增加气泡加载功能，可以随意给主题搭配气泡\n- 增加本地字体加载功能\n- 注：气泡需要主题作者上传，从下载中心下载，不支持本地添加\n- > 2025-3-19",
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
