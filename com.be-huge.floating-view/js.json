@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.2-2",
+                    "text": "1.5.2-3",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 3 月 19 日",
+                    "text": "2025 年 3 月 22 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,14 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.2-3\n- 搜索app呼出方式新增手势呼出\n- 新增搜索app列表支持长按快捷菜单功能\n- 移除镜像arc功能\n- 优化部分性能\n- > 2025-3-22",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.2-2\n- 支持点击通知横幅打开浮窗（横幅功能入口已挪至浮窗设置之中，不在原来其它杂项位置处）\n- > 2025-3-19",
