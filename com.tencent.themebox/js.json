@@ -91,7 +91,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 2.0.1-1\n- 一些细节上的优化\n- 修复独立气泡的裁剪问题\n- > 2025-3-19",
+                    "markdown": "### 2.0.1-1\n- 一些细节上的优化\n- 修复独立气泡的裁剪问题\n- > 2025-3-31",
                 },
                 {
                     "class": "DepictionSeparatorView"
