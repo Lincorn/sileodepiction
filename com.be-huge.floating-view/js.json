@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.3-7",
+                    "text": "1.5.3-8",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 4 月 5 日",
+                    "text": "2025 年 4 月 6 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,14 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.3-8\n- 优化呼出arc、操控台操作逻辑，允许在多指操作下识别角落区域\n- > 2025-4-6",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.3-7\n- 修复通知横幅打开浮窗，后续全屏打开失败问题\n- > 2025-4-5",
