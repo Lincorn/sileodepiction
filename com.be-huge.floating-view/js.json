@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.3-8",
+                    "text": "1.5.3-9",
                     "title": "插件版本"
                 },
                 {
@@ -89,6 +89,14 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.3-9\n- 修复外部唤出arc触控失效问题\n- > 2025-4-6",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.3-8\n- 优化呼出arc、操控台操作逻辑，允许在多指操作下识别角落区域\n- > 2025-4-6",
