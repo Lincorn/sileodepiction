@@ -83,7 +83,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 1 月 22 日",
+                    "text": "2025 年 4 月 7 日",
                     "title": "最后更新"
                 }
             ]
@@ -92,6 +92,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.2.2\n- 修复热更新导致失效问题\n- > 2025-4-7",
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
