@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.3-10",
+                    "text": "1.5.3-11",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 4 月 7 日",
+                    "text": "2025 年 4 月 8 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,14 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.3-11\n- 修复打开arc锁屏后导致滑动不了的情况（比如接电话，锁屏关机）\n- > 2025-4-8",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.3-10\n- 侧边栏区分竖屏、横屏高度设置\n- 增加触控震动开关\n- 新增阴影设置\n- 动画调整，操作逻辑有变更，自行探索\n- （留意设置⚠️标注，部分是正常现象，不要大惊小怪）\n- > 2025-4-7",
