@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.4",
+                    "text": "1.5.4-1",
                     "title": "插件版本"
                 },
                 {
@@ -91,7 +91,15 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 1.5.4\n- arc动画调整\n- arc工具新增开启标识\n- 移除arc按钮背景颜色\n- 新增arc层级数量\n- 修复热更新对浮窗布局影响问题\n- > 2025-4-13",
+                    "markdown": "### 1.5.4-1\n- 完全移除外部唤起arc\n- 修复锁屏来电、文件分享造成无法触控问题\n- > 2025-4-12",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.4\n- arc动画调整\n- arc工具新增开启标识\n- 移除arc按钮背景颜色\n- 新增arc层级数量\n- 修复热更新对浮窗布局影响问题\n- > 2025-4-12",
                 },
                 {
                     "class": "DepictionSeparatorView"
