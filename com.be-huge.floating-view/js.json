@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.3-11",
+                    "text": "1.5.4",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 4 月 8 日",
+                    "text": "2025 年 4 月 12 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,14 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.4\n- arc动画调整\n- arc工具新增开启标识\n- 移除arc按钮背景颜色\n- 新增arc层级数量\n- 修复热更新对浮窗布局影响问题\n- > 2025-4-13",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.3-11\n- 修复打开arc锁屏后导致滑动不了的情况（比如接电话，锁屏关机）\n- > 2025-4-8",
