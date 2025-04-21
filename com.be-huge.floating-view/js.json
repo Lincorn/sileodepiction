@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.4-8",
+                    "text": "1.5.4-9",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 4 月 20 日",
+                    "text": "2025 年 4 月 21 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.4-9\n- 修复外置键盘背景显示异常问题\n- > 2025-4-21",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.4-8\n- 修复使用浮窗分享文件时，异常显示外置键盘背景问题\n- 优化内置键盘显示逻辑\n- > 2025-4-20",
