@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.5-3",
+                    "text": "1.5.5-4",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 4 月 22 日",
+                    "text": "2025 年 4 月 26 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.5-4\n- 修复arc录屏开关无法关闭直播录制状态\n- 新增键盘震动功能，自行取舍，建议使用系统自带键盘不要开启\n- > 2025-4-26",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.5-3\n- 修复部分机型安全模式问题\n- 修复iPad上屏幕倒置时，呼出操控台显示异常问题\n- > 2025-4-22",
