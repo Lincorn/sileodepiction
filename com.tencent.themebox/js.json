@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.0.4",
+                    "text": "2.0.5",
                     "title": "插件版本"
                 },
                 {
@@ -77,7 +77,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 4 月 22 日",
+                    "text": "2025 年 5 月 1 日",
                     "title": "最后更新"
                 }
             ]
@@ -86,6 +86,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 2.0.5\n- 一些细节上的代码优化\n- 增加朋友圈布局修改功能，将原来的点赞、评论操作直接固定在卡片底部\n- > 2025-5-1",
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
