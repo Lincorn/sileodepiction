@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.5-7",
+                    "text": "1.5.5-8",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 5 月 6 日",
+                    "text": "2025 年 5 月 8 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.5-8\n- 屏幕旋转问题\n- 可能引发安全模式问题\n- > 2025-5-8",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.5-7\n- 修复屏幕旋转时，屏幕角落出现黑块问题\n- 修复注销时，arc显示异常问题\n- > 2025-5-6",
