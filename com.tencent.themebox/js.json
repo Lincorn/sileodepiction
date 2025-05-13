@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.0.5",
+                    "text": "2.0.6",
                     "title": "插件版本"
                 },
                 {
@@ -77,7 +77,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 5 月 1 日",
+                    "text": "2025 年 5 月 13 日",
                     "title": "最后更新"
                 }
             ]
@@ -86,6 +86,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 2.0.6\n- 优化消息时间显示的代码\n- 增加两个朋友圈操作按钮布局选项\n- > 2025-5-13",
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
