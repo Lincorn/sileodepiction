@@ -78,7 +78,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "3.8.3",
+                    "text": "3.8.7",
                     "title": "插件版本"
                 },
                 {
@@ -88,7 +88,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 4 月 19 日",
+                    "text": "2025 年 5 月 21 日",
                     "title": "最后更新"
                 }
             ]
@@ -97,6 +97,13 @@
             "class": "DepictionStackView",
             "tabname": "更新",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 3.8.7\n- 解决我的页面内容重复重叠问题\n- 解决大底栏背景边缘黑边问题\n- 8060暂时还是测试版,不确定官方是否继续修改,所有此版本还未适配8060",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 3.8.3\n- 解决文字改色不生效问题\n- 解决大底栏会闪烁一下的问题,小底栏在配套设置里面新增了一个弹出动画开关功能\n- 解决个人资料页居中,头像框等功能不生效问题\n- 备注页面填写框背景问题",
