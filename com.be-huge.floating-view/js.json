@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.5-10",
+                    "text": "1.5.6",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 6 月 3 日",
+                    "text": "2025 年 6 月 4 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.6\n- 修复外部关闭浮窗失效问题\n- 侧边栏应用、浮窗阴影适配暗黑模式\n- 新增浮窗交互接口\n- > 2025-6-4",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.5-10\n- 悬浮图标背景修改为毛玻璃效果\n- 侧边栏应用背景修改为毛玻璃效果\n- 新增外部插件关闭浮窗、打开上一次浮窗接口\n- > 2025-6-1",
