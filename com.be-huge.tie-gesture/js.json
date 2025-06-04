@@ -16,7 +16,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "## 购买Tips:\n- 1.下载 tie-gesture\n- 2.进入插件，点“赞助入口”跳转支付宝\n- 3.支付100元，打开订单详细，联系商家\n- 4.准备udid登记后会添加好友发包",
+                    "markdown": "## 购买Tips:\n- 1.下载 tie-gesture\n- 2.进入插件，点“赞助入口”跳转支付宝\n- 3.联系收款方\n- 4.准备udid登记后会添加好友发包",
                     "useSpacing": true
                 },
                 {
