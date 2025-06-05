@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.6",
+                    "text": "1.5.6-1",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 6 月 4 日",
+                    "text": "2025 年 6 月 5 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.6-1\n- 修复点击通知中心消息打开应用错乱问题\n- > 2025-6-5",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.6\n- 修复外部关闭浮窗失效问题\n- 侧边栏应用、浮窗阴影适配暗黑模式\n- 新增浮窗交互接口\n- > 2025-6-4",
