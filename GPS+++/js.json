@@ -66,6 +66,9 @@
           "class": "DepictionMarkdownView",
           "markdown": "初始版本",
           "useRawFormat": true
+        },
+        {
+          "class": "DepictionSeparatorView"
         }
       ]
     }
