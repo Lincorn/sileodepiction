@@ -1,0 +1,73 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "text":"Github 开源地址",
+          "action":"https://github.com/pxx917144686/GPS",
+          "openExternal": 1,
+          "class": "DepictionButtonView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "GPS++，功能强大的iOS位置工具；任意空白面板，双指轻点弹出菜单。pxx917144686手搓，已开源 ",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详情",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "pxx917144686",
+          "title": "作者"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "0.1",
+          "title": "最新版本"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "rootless",
+          "title": "理论支持系统范围"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "2025 年 6 月 7 日",
+          "title": "最后更新日期"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "0.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "初始版本",
+          "useRawFormat": true
+        }
+      ]
+    }
+  ]
+}
