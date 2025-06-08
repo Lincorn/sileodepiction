@@ -78,7 +78,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "3.8.9",
+                    "text": "3.9.0",
                     "title": "插件版本"
                 },
                 {
@@ -88,7 +88,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 6 月 7 日",
+                    "text": "2025 年 6 月 8 日",
                     "title": "最后更新"
                 }
             ]
@@ -97,6 +97,13 @@
             "class": "DepictionStackView",
             "tabname": "更新",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 3.9.0\n- 更新支持8060\n- 修复热更新造成的小底栏两套图标重叠",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 3.8.9\n- 更新支持8060",
