@@ -78,7 +78,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "3.9.0",
+                    "text": "3.9.1",
                     "title": "插件版本"
                 },
                 {
@@ -88,7 +88,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 6 月 8 日",
+                    "text": "2025 年 6 月 9 日",
                     "title": "最后更新"
                 }
             ]
@@ -97,6 +97,13 @@
             "class": "DepictionStackView",
             "tabname": "更新",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 3.9.1\n- 更新支持8060\n- 修复热更新造成的小底栏两套图标重叠\n- 修复了高版本OS出现白色和黑色横条背景的问题",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 3.9.0\n- 更新支持8060\n- 修复热更新造成的小底栏两套图标重叠",
