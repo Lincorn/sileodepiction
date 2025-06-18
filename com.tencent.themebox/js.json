@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.0.6",
+                    "text": "2.0.7",
                     "title": "插件版本"
                 },
                 {
@@ -72,12 +72,12 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "iOS 15 - iOS 17.0",
+                    "text": "所有版本",
                     "title": "支持系统"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 5 月 13 日",
+                    "text": "2025 年 6 月 18 日",
                     "title": "最后更新"
                 }
             ]
@@ -86,6 +86,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 2.0.7\n- 修复8.0.60热更新后主页背景失效\n- 修复底栏切换动画和底栏触感失效\n- > 2025-6-18",
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
