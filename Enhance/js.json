@@ -59,9 +59,6 @@
             "tabname": "更新",
             "views": [
                 {
-                    "class": "DepictionSeparatorView"
-                },
-                {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.4-8\n- 去除附件布局\n- 隐藏按钮功能\n- 顶栏更换方案(有搜索按钮时无需调整水平偏移即可保持居中)",
                 },
