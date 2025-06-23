@@ -1,0 +1,103 @@
+{
+    "class": "DepictionTabView",
+    "tintColor": "",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "markdown": "## 微信插件,支持聊天按钮布局自定义等。",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "1.4-8",
+                    "title": "插件版本"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "所有系统",
+                    "title": "支持系统"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2025 年 5 月 20 日",
+                    "title": "最后更新"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "愫茶",
+                    "title": "作者"
+                },
+          ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新",
+            "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4-8\n- 去除附件布局\n- 隐藏按钮功能\n- 顶栏更换方案(有搜索按钮时无需调整水平偏移即可保持居中)",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4-7\n- 头像圆角添加边框\n- 朋友圈圆角添加边框\n- 相册选择圆角添加边框\n- 主页面会话添加左滑菜单圆角/边框设置\n- 表情包圆角添加边框(新增管理界面设置)\n- 快速回复通知添加圆角/边框/背景模糊设置\n- 聊天页底部输入整体区域添加圆角/边框设置\n- 修复iPad台前调度模式下点击头像显示模式闪退问题\n- 聊天顶栏头像添加水平位置偏移调整(修复一些小问题)\n- 聊天附件布局-支持行数调整(行数>2时,支持上下滑动)",
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4-4\n- 优化一些已知道问题\n- UI进行微调，开关位置有调整\n- 优化字体替换处理,更加高效\n- 插件设置添加关闭更新检测弹窗\n- 添加删除首页好友会话保留聊天记录\n- 添加进入聊天界面自动弹出键盘\n- 顶栏信息优化，分隔符允许设置为空，网名位置支持设置在头像下方，添加黑名单管理(控制对方是否显示头像）\n- 自动回复优化，添加关键词回复黑名单(私聊/群聊)，添加AI回复黑名单(私聊/群聊)\n- 信息长按菜单，添加动画效果，添加文字着色，添加图标着色......\n- 首页长按好友信息进入预览\n- 完全重写自动选择原图",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4-2\n- 更换"禁用热更新"逻辑\n- 修复点击.m4a音频文件会闪退的问题\n- 修复点击服务号会闪退问题\n- 初步优化自动回复功能\n- 优化"兼容性优化"\n- 修复新安装微信首次打开时，登录页不显示登录按钮等问题",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4-1\n- 修复一些小问题\n- "登录修正"-->"兼容性优化"\n- 兼容未来可能出现的新的内测标识\n- 解决双开人脸识别时会出现系统繁忙的问题",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.4-0\n- 优化防撤回，扩展自定义内容\n- 优化头像隐藏逻辑：仅在启用至少一个选项时执行相关逻辑\n- 扩展功能添加绕过登录限制,默认开启(例子com.tencent.qy.xin）\n- 绕过登录限制默认开启，也可单独注入123云盘内WeChatLoginFix.dylib",
+                }
+            ]
+        }
+    ],
+}
