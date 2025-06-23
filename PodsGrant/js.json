@@ -48,7 +48,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.4.3",
+                    "text": "0.5.1",
                     "title": "插件版本"
                 },
                 {
@@ -58,7 +58,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 4 月 4 日",
+                    "text": "2025 年 5 月 22 日",
                     "title": "最后更新"
                 },
                 {
@@ -74,6 +74,20 @@
             "class": "DepictionStackView",
             "tabname": "更新",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 0.5.1\n- Bug修复",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 0.5.0\n- 理论支持iOS所有版本",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 0.4.3\n- 提升稳定性",
