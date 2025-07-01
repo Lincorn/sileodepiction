@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.0.7",
+                    "text": "2.0.8",
                     "title": "插件版本"
                 },
                 {
@@ -77,7 +77,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 6 月 18 日",
+                    "text": "2025 年 7 月 1 日",
                     "title": "最后更新"
                 }
             ]
@@ -86,6 +86,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 2.0.8\n- 修复因热更新导致输入框背景失效\n- 修复热更新导致因此消息来源失效\n- > 2025-7-1",
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
