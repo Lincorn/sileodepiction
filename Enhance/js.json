@@ -34,7 +34,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.4-9",
+                    "text": "1.5.0",
                     "title": "插件版本"
                 },
                 {
@@ -44,7 +44,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 6 月 30 日",
+                    "text": "2025 年 7 月 2 日",
                     "title": "最后更新"
                 },
                 {
@@ -58,6 +58,13 @@
             "class": "DepictionStackView",
             "tabname": "更新",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.0\n- 修复1.4-9，点击首页聊天会话出现的闪退问题",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.4-9\n- 顶栏添加网名水平偏移调整\n- 圆角设置添加Cell列表圆角设置\n- 聊天页顶部导航栏添加圆角/边框\n- 修复顶栏-修改网名偏移后切换至其他应用再返回时,名字位置会下沉的问题",
