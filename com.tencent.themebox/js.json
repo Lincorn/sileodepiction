@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.0.8",
+                    "text": "2.0.9",
                     "title": "插件版本"
                 },
                 {
@@ -77,7 +77,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 7 月 1 日",
+                    "text": "2025 年 7 月 5 日",
                     "title": "最后更新"
                 }
             ]
@@ -86,6 +86,16 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 2.0.9\n- 新增底栏抽屉功能，可放置一些常用操作\n- 修复svg主题配置了svg_config但是无效问题\n- > 2025-7-5",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionSeparatorView"
                 },
