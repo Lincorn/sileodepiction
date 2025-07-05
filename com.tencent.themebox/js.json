@@ -87,14 +87,8 @@
             "tabname": "更新日志",
             "views": [
                 {
-                    "class": "DepictionSeparatorView"
-                },
-                {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 2.0.9\n- 新增底栏抽屉功能，可放置一些常用操作\n- 修复svg主题配置了svg_config但是无效问题\n- > 2025-7-5",
-                },
-                {
-                    "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionSeparatorView"
