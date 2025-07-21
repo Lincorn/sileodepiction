@@ -34,7 +34,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.0",
+                    "text": "1.5.4",
                     "title": "插件版本"
                 },
                 {
@@ -44,7 +44,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 7 月 2 日",
+                    "text": "2025 年 7 月 21 日",
                     "title": "最后更新"
                 },
                 {
@@ -58,6 +58,13 @@
             "class": "DepictionStackView",
             "tabname": "更新",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.4\n- 具体更新日志请看插件内部",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.0\n- 修复1.4-9，点击首页聊天会话出现的闪退问题",
