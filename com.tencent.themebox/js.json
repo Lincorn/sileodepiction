@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.1.0",
+                    "text": "2.1.1",
                     "title": "插件版本"
                 },
                 {
@@ -86,6 +86,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 2.1.1\n- 修复2.1.0对抽屉图标处理不恰当问题（颜色和圆角）\n- > 2025-7-21",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 2.1.0\n- 底栏抽屉增加联系人、群聊、收藏\n- 对一些功能细节进行优化\n- 钱包页面可以关闭半透明(功能位于主题选项->透明选项)\n- 修复未启用插件时无法进入抽屉管理\n- > 2025-7-21",
