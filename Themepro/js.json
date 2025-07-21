@@ -78,7 +78,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "3.9.1",
+                    "text": "3.9.8",
                     "title": "插件版本"
                 },
                 {
@@ -88,7 +88,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 6 月 9 日",
+                    "text": "2025 年 7 月 21 日",
                     "title": "最后更新"
                 }
             ]
@@ -97,6 +97,13 @@
             "class": "DepictionStackView",
             "tabname": "更新",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 3.9.8\n- 新增列表背景透明调节(个性化设置中）\n- 底栏图标缩小\n- 新增置顶折叠聊天背景(个性化设置中,不支持和列表背景透明度同时开启）\n- 去掉红包以及转账等消息底部的灰线\n- 修复搜索框背景图",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 3.9.1\n- 更新支持8060\n- 修复热更新造成的小底栏两套图标重叠\n- 修复了高版本OS出现白色和黑色横条背景的问题",
