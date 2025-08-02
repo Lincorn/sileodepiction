@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.1.1",
+                    "text": "2.1.2",
                     "title": "插件版本"
                 },
                 {
@@ -77,7 +77,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 7 月 21 日",
+                    "text": "2025 年 8 月 2 日",
                     "title": "最后更新"
                 }
             ]
@@ -86,6 +86,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 2.1.2\n- 新增聊天分组功能,功能位于布局设置内的首页聊天分组\n- 修复钱包页面顶栏颜色问题\n- > 2025-8-2",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 2.1.1\n- 修复2.1.0对抽屉图标处理不恰当问题（颜色和圆角）\n- > 2025-7-21",
