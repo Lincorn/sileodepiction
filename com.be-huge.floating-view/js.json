@@ -70,7 +70,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.5.6-5",
+                    "text": "1.5.6-6",
                     "title": "插件版本"
                 },
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 7 月 11 日",
+                    "text": "2025 年 8 月 9 日",
                     "title": "最后更新"
                 }
             ]
@@ -89,6 +89,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 1.5.6-6\n- 新增点击浮窗外关闭主浮窗功能\n- 修复键盘显示一系列问题\n- > 2025-8-9",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 1.5.6-5\n- 新增arc工具栏可以将当前应用放置侧边悬浮\n- > 2025-7-11",
