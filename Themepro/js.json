@@ -78,7 +78,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "4.0.9",
+                    "text": "4.1.0",
                     "title": "插件版本"
                 },
                 {
@@ -88,7 +88,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 8 月 16 日",
+                    "text": "2025 年 8 月 17 日",
                     "title": "最后更新"
                 }
             ]
@@ -97,6 +97,13 @@
             "class": "DepictionStackView",
             "tabname": "更新",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 4.1.0\n- 适配了8062版本,解决了时间框变高问题,和最新版Wx小底栏返回闪黑问题\n- 移除了小底栏动画(因为62版本的首页逻辑不能支持,会有视觉bug)\n- 新增分组功能（自动居中布局设置完重启生效)，带最近信息分组大家自己体验(特色功能里面)不能和其他分组插件共用",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 4.0.9\n- 适配了8062版本,解决了时间框变高问题,和最新版WX小底栏返回闪黑问题\n- 移除了小底栏动画(因为62版本的首页逻辑不能支持，会有视觉bug)\n- 新增分组功能,带最近信息分组大家自己体验(特色功能里面)不能和其他分组插件共用",
