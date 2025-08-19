@@ -78,7 +78,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "4.1.0",
+                    "text": "4.1.4",
                     "title": "插件版本"
                 },
                 {
@@ -88,7 +88,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 8 月 17 日",
+                    "text": "2025 年 8 月 20 日",
                     "title": "最后更新"
                 }
             ]
@@ -97,6 +97,13 @@
             "class": "DepictionStackView",
             "tabname": "更新",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 4.1.4\n- \n- 修复了大底栏异形底栏背景返回首页有黑边的问题\n- 优化了时间框背景有轻微拉伸变高的问题\n- 修复了特殊情况下本地导入主题按钮消失的问题\n- 有圆角功能需求的用户,推荐搭配微信优化1.3.4版本并打开里面的TP模式开关",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 4.1.0\n- 适配了8062版本,解决了时间框变高问题,和最新版Wx小底栏返回闪黑问题\n- 移除了小底栏动画(因为62版本的首页逻辑不能支持,会有视觉bug)\n- 新增分组功能（自动居中布局设置完重启生效)，带最近信息分组大家自己体验(特色功能里面)不能和其他分组插件共用",
