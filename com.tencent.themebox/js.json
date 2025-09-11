@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.1.5",
+                    "text": "2.1.6",
                     "title": "插件版本"
                 },
                 {
@@ -77,7 +77,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 8 月 11 日",
+                    "text": "2025 年 9 月 11 日",
                     "title": "最后更新"
                 }
             ]
@@ -86,6 +86,13 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 2.1.6\n- 修复微信8.0.63热更新导致底栏抽屉功能失效问题\n- 修复启动图问题，增加手动清理功能\n- 增加全局背景模糊功能\n- 由于部分设备及版本无法完成自动重启。增加手动打开选项。\n- > 2025-9-11",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 2.1.5\n- 适配8.0.62客户端的一些问题\n- 分组功能新增从最近联系人导入到分组\n- 配色管理支持修改首页列表名字、消息、时间的颜色\n- > 2025-8-11",
